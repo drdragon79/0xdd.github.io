@@ -1,0 +1,34 @@
+base_url = "https://drdragon79.dev"
+title = "DrDragon79"
+build_search_index = false
+generate_feed = true
+compile_sass = true
+minify_html = true
+
+[markdown]
+highlight_code = true
+highlight_theme = "ayu-dark"
+
+[extra]
+toc = false
+use_cdn = false
+favicon = "/icon/favicon.png"
+theme = "dark"
+
+menu = [
+    # { name = "/posts", url = "/posts", weight = 1 },
+    # { name = "/projects", url = "/projects", weight = 2 },
+    { name = "/about", url = "/about", weight = 3 },
+]
+
+socials = [
+    # { name = "twitter", url = "https://twitter.com/drdragon79", icon = "twitter" },
+    { name = "github", url = "https://github.com/drdragon79/", icon = "github" },
+]
+
+custom_css = []
+
+# [extra.analytics]
+# enabled = true
+# goatcounter_user = "your_user"
+# goatcounter_host = "example.com"    # default= goatcounter.com
