@@ -2,7 +2,10 @@
 
 {% block main_content %}
 
-<img src=/images/hackerman.gif height=250 width=500>
+<script>
+    document.write(`<img src=/images/${Math.floor(Math.random() * 6) + 1}.gif height=250 width=500>`);
+</script>
+<!-- <img src=/images/hackerman.gif height=250 width=500> -->
 <!-- <p>Welcome<p> -->
 
 <h1>Links</h1>
