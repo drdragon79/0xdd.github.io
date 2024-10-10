@@ -1,5 +1,5 @@
 base_url = "https://drdragon79.github.io"
-title = "DrDragon79"
+title = "drdrag0n"
 build_search_index = false
 generate_feeds = true
 compile_sass = true
@@ -17,8 +17,9 @@ theme = "dark"
 
 menu = [
     # { name = "/posts", url = "/posts", weight = 1 },
-    { name = "/projects", url = "/projects", weight = 2 },
-    { name = "/about", url = "/about", weight = 3 },
+    { name = "/projects", url = "/projects", weight = 1 },
+    { name = "/notes", url = "https://drdragon.gitbook.io/0xdd", weigh = 2 },
+    { name = "/writeups", url = "https://drdragon.gitbook.io/0xdd/writeups", weigh = 3 }
 ]
 
 socials = [
