@@ -1,4 +1,4 @@
-base_url = "https://drdragon79.github.io"
+base_url = "https://0xdd.github.io"
 title = "drdrag0n"
 build_search_index = false
 generate_feeds = true
@@ -18,12 +18,11 @@ theme = "dark"
 menu = [
     # { name = "/posts", url = "/posts", weight = 1 },
     { name = "/projects", url = "/projects", weight = 1 },
-    { name = "/notes", url = "https://drdragon.gitbook.io/0xdd", weigh = 2 },
-    { name = "/writeups", url = "https://drdragon.gitbook.io/0xdd/writeups", weigh = 3 }
+    { name = "/infosec-notes", url = "https://drdragon.gitbook.io/0xdd", weight = 2 },
+    { name = "/writeups", url = "https://drdragon.gitbook.io/0xdd/writeups", weight = 3 }
 ]
 
 socials = [
-    # { name = "twitter", url = "https://twitter.com/drdragon79", icon = "twitter" },
     { name = "github", url = "https://github.com/drdragon79/", icon = "github" },
 ]
 
